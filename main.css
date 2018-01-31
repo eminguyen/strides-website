@@ -1,0 +1,40 @@
+html body {
+    background-color: #1b1b1b;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+    color: #F0F0F0;
+}
+
+body h2 {
+    color: #F0F0F0;
+}
+
+body p {
+     color: #F0F0F0;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(102,102,102);
+}
+
+a:visited {
+     text-decoration: none;
+     color: rgb(102,102,102);
+}
+
+.navbar-default {
+  background-color:#000000;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand a{
+    color: #F0F0F0;
+}
+
+.navbar .nav-item .nav-link {
+  color: #F0F0F0;
+}
