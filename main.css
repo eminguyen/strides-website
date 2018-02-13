@@ -26,6 +26,8 @@ a:visited {
      color: rgb(102,102,102);
 }
 
+/**navbar section*/
+
 .navbar-default {
     background-color: rgba(0,0,0,0);
     background-image: none;
@@ -57,6 +59,13 @@ body .navbar-brand a:hover {
 
 .navbar button {
     color: rgb(255,255,255);
+}
+
+/**intro section*/
+
+.intro {
+    padding-bottom: 100vh;
+    padding-top: 50vh;
 }
 
 .intro p {
