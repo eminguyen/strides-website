@@ -1,7 +1,9 @@
 html body {
-    background-color: #1b1b1b;
     font-family: 'Roboto', sans-serif;
-    padding-top: 10vh;
+    background: #00f260; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100%;
 }
 
 body h1 {
@@ -64,8 +66,8 @@ body .navbar-brand a:hover {
 /**intro section*/
 
 .intro {
-    padding-bottom: 100vh;
     padding-top: 50vh;
+    padding-bottom: 50vh;
 }
 
 .intro p {
