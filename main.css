@@ -73,3 +73,8 @@ body .navbar-brand a:hover {
 .intro p {
     font-size: .8em;
 }
+
+.about {
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+}
