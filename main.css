@@ -21,7 +21,7 @@ html body {
 .column img {
 }
 
-.staff {
+#staff {
   background: white;
 }
 
@@ -63,10 +63,6 @@ html body {
   margin-left:-2px;
 }
 
-.menu {
-  background: transparent !important;
-}
-
 .ui img {
   margin: auto;
 }
@@ -104,3 +100,5 @@ html body {
   position: relative;
   top: -100px;
 }
+
+.menu {}
