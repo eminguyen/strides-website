@@ -11,6 +11,7 @@ html body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
 }
 
 .calendar {
@@ -18,7 +19,6 @@ html body {
 }
 
 .column img {
-  border-radius: 10px;
 }
 
 .staff {
@@ -29,7 +29,6 @@ html body {
   position: absolute;
   width: 100%;
   padding-bottom:3%;
-  margin-top: 100vh;
   background-color: rgb(255, 255, 255);
 }
 .arrow:before, .arrow:after {
@@ -74,4 +73,22 @@ html body {
 
 .ui .visible {
   width: 100%;
+}
+
+.form {
+  background: rgb(250,250,250);
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  font-size: 5em;
+  line-height: 1.1em;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
