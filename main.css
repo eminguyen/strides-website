@@ -83,7 +83,13 @@ html body {
   position: relative;
   width: 100%;
   font-size: 5em;
-  line-height: 1.1em;
+  display: block;
+}
+
+#subtext {
+  display: block;
+  font-size: .4em;
+  padding=top: 1.5%;
 }
 
 .center {
@@ -91,4 +97,10 @@ html body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  line-height: 4em;
+}
+
+.arrowthingy {
+  position: relative;
+  top: -100px;
 }
