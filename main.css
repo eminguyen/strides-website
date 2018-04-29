@@ -3,7 +3,7 @@ html body {
     text-align: center;
 }
 
-.intro {
+#intro {
   height: 100%;
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, rgba(47,128,237, 0.8), rgba(86,204,242,0.8)), url("./images/cover.jpg");  /* Chrome 10-25, Safari 5.1-6 */
@@ -100,5 +100,3 @@ html body {
   position: relative;
   top: -100px;
 }
-
-.menu {}

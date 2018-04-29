@@ -31,23 +31,12 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
+        }, 1000);
       }
     }
   });
 
-$('.ui .item').on('click', function() {
+$('.ui .right .item').on('click', function() {
       $('.ui .item').removeClass('active');
       $(this).addClass('active');
    });
@@ -56,3 +45,8 @@ $('.arrowthingy')
   .transition('set looping')
   .transition('set n')
   .transition('bounce', '2000ms')
+
+  $('#about .icon').hover( function(){
+    $('.icon').transition('jiggle');
+  }
+);
