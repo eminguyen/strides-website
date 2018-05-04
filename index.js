@@ -6,6 +6,7 @@ $(document).ready(function(){
   }
   else {
     $('.menu').css("background-color", "transparent").css("transition","0.3s ease-in-out ");
+    $('.ui .item').removeClass('active');
   }
   });
 })
@@ -36,10 +37,13 @@ $('a[href*="#"]')
     }
   });
 
+$('.ui .item').on('click', function() {
+  $('.ui .item').removeClass('active');
+});
+
 $('.ui .right .item').on('click', function() {
-      $('.ui .item').removeClass('active');
-      $(this).addClass('active');
-   });
+  $(this).addClass('active');
+});
 
 $('.arrowthingy')
   .transition('set looping')
