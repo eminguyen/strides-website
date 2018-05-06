@@ -31,6 +31,7 @@ html body {
   padding-bottom:3%;
   background-color: rgb(255, 255, 255);
 }
+
 .arrow:before, .arrow:after {
   content:'';
   position: absolute;
@@ -40,6 +41,7 @@ html body {
   background-color: inherit;
   border-top: 2px solid #fff;
 }
+
 .arrow:before {
   right: 50%;
   -ms-transform-origin: 100% 100%;
@@ -51,6 +53,7 @@ html body {
   border-right: 3px solid #fff;
   margin-right:-2px;
 }
+
 .arrow:after {
   left: 50%;
   -ms-transform-origin: 0 100%;
@@ -94,6 +97,10 @@ html body {
   justify-content: center;
   height: 100%;
   line-height: 4em;
+}
+
+#about {
+  padding-top: 1%;
 }
 
 .arrowthingy {
