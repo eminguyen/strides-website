@@ -50,7 +50,7 @@ $('.arrowthingy')
   .transition('set n')
   .transition('bounce', '2000ms')
 
-  $('#about .icon').hover( function(){
-    $('.icon').transition('jiggle');
+  $('.jiggle .icon').hover( function(){
+    $('.jiggle .icon').transition('jiggle');
   }
 );
